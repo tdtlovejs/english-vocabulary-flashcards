@@ -1,0 +1,13 @@
+.BackCard_wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BackCard_word {
+    font-weight: 600;
+    color: #152D35;
+    font-size: 1.2rem;
+}

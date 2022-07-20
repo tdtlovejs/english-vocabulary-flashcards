@@ -1,0 +1,70 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+    height: 100%;
+}
+.App_Wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ededed;
+}
+.App_Wrapper > div {
+    height: 480px;
+    width: 420px;
+    max-height: calc(100vh - 80px);
+    max-width: calc(100% - 40px);
+}
+.App_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+.App_header .count {
+    position: absolute;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -20px;
+    right: -20px;
+    font-weight: 600;
+}
+.App_header .active {
+    border-bottom: 2px solid #152D35;
+}
+.App_header svg {
+    font-size: 1.2rem;
+}
+.App_header svg path {
+    fill: #152D35;
+}
+.App_filterDontKnow {
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+}
+.App_filterDontKnow .count {
+    background-color: #E05D5D;
+}
+.App_filterKnow {
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+    color: #152D35;
+}
+.App_filterKnow .count {
+    background-color: #80ED99;
+}
